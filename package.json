@@ -4,7 +4,7 @@
   "description": "��#\u0000 \u0000B\u00002\u00002\u00000\u00007\u00005\u00006\u00002\u0000_\u0000N\u0000g\u0000u\u0000y\u0000e\u0000n\u0000D\u0000u\u0000y\u0000T\u0000h\u0000a\u0000n\u0000h\u0000_\u0000B\u0000a\u0000c\u0000k\u0000e\u0000n\u0000d\u0000_\u00001\u0000\r\u0000 \u0000",
   "main": "server.js",
   "scripts": {
-    "start" : "nodemon sever.js"
+    "start": "nodemon sever.js"
   },
   "repository": {
     "type": "git",
@@ -14,7 +14,8 @@
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "mongodb": "^6.17.0"
   },
   "devDependencies": {
     "eslint": "^9.31.0",
